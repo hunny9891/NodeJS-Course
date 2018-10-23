@@ -1,0 +1,12 @@
+To start mongodb daemon command
+** mongod --dbpath=<folder path where to store data.>
+
+To switch to another database
+** use db_name
+
+To insert in a collection in a database
+** db.collectionName.insert(json object); #Example - db.dishes.insert({name:"Pizza", description:"It is cheezy dish with veg and chicken as optional!"});
+
+To display all json object in a collection
+** db.collectionName.find();  # Example - db.dishes.find();
+
